@@ -1,0 +1,28 @@
+@import "compass/reset";
+
+$banner-font-size: 64px;
+
+body {
+    background: url(/img/bg.png) repeat;
+}
+
+.center-container {
+    margin-top: 100px;
+}
+
+.horizontal-stripe {
+    background: url(/img/horizontal_stripe.png) repeat-x;
+    width: 100%;
+    height: 48px;
+}
+
+.banner {
+    height: 240px;
+    width: 100%;
+    background: white;
+    font-family: 'Tienne', serif;
+    font-size: $banner-font-size;
+    line-height: 4 * $banner-font-size;
+    text-align: center;
+    text-transform: uppercase;
+}
